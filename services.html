@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NonyDkafy - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .service-container {
+            background: #1d1d1d;/* rgb(0 0 0 / 78%)*/
+        }
+
+        .service-box {
+            height: 7vh;
+            background: rgba(255, 255, 255, 0.2);
+            margin-bottom: 10px;
+            border: 2px solid #007ced;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .tick-box {
+            background: #fff;
+            width: 20px;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            padding-left: 2px;
+            padding-top: 1px;
+        }
+
+        .download-btn {
+    color:#fff;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    border: none;
+}
+    </style>
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <a href="home.html">
+                 <div class="logo">
+                    <i class="fa-solid fa-d"></i>
+                    <div class="logo-text">Dkafy</div>
+                 </div>
+                </a>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="service-container">
+                <div class="service-box">
+                    <h3>Fashion Modelling</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i> </div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Fitness Model</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Editorial Modelling</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Glamour Modelling</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Social Media Influencing</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Advertisement</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Promotions</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+                <div class="service-box">
+                    <h3>Brand Ambassadorship</h3>
+                    <div class="tick-box"><i class="fa fa-check" aria-hidden="true" style="color: #007ced;"></i></div>
+                </div>
+
+
+            </div>
+
+            <button class="download-btn" style="margin-bottom: 20px; background: linear-gradient(45deg, #61be4e, #06750f)" >Get in Touch</button>
+
+
+        </div>
+    </div>
+    <script>
+        // button click show hide
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+            
+        })
+    </script>
+</body>
+</html>

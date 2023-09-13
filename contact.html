@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NonyDkafy - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfoliostyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <a href="home.html">
+                 <div class="logo">
+                    <i class="fa-solid fa-d"></i>
+                    <div class="logo-text">Dkafy</div>
+                 </div>
+                </a>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="profile-card">
+                <div class="profile-pic">
+                    
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDV66yprIwNp-6ZGNACxRudr_5q-rIzTZn0eR7x3TpIlz6GgiEJ_MIQmwc-jv36xSW4t4QAz7q09fh0ertqoXr_l-xyEyDaKges4iTX6qPmZIfWb3hAdEr98TZ4gU3-d0cp9OaRtr5qpCzjCSg4EV8VxlbhIrwNVrOPkBu5r9EGt5KoHDZLCUMiRvn9GwL/s1073/SmartSelect_20230913-112453_Instagram.jpg" alt="user avater">
+            </div>
+    
+            <div class="profile-details">
+                <div class="intro" style="margin-bottom: 20px;">
+                    <h2>Contact Nony<span style="color:#007ced">Dkafy</span></h2>
+                    <h4>Designer Fashion Model</h4>
+                    
+                </div>
+    
+                <div class="contact-info">
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-phone" style="color:var(--dark-magenta)"></i>
+                        </div>
+                        <div class="content">
+                            <span>Phone</span>
+                            <h5>+234 807 230 9361</h5>
+                        </div>
+                    </div>
+    
+    
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-envelope-open" style="color:var(--light-green)"></i>
+                    </div>
+                    <div class="content">
+                        <span>Email</span>
+                        <h5>okafor301@gmail.com</h5>
+                    </div>
+                </div>
+    
+    
+                <div class="row">
+                    <div class="icon">
+                        <i class="fa fa-map-marker" style="color:var(--blue)" style="color:var(--light-purple)"></i>
+                    </div>
+                    <div class="content">
+                        <span>Location</span>
+                        <h5>Hongkong China</h5>
+                    </div>
+                </div>
+    
+            </div>
+    
+                <div>
+                    <button class="download-btn" style="margin-bottom: 20px; background: linear-gradient(45deg, #61be4e, #06750f)" >Whatsapp</button>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook" style="color:var(--blue)"></i></a>
+                    <a href="#"><i class="fab fa-twitter" style="color:var(--skyblue)"></i></a>
+                    <a href="#"><i class="fab fa-dribbble" style="color:var(--dark-pink)"></i></a>
+                    <a href="#"><i class="fab fa-linkedin" style="color:var(--light-blue)"></i></a> | Contact Us Now <span style="color: #750606;">!!!</span>
+                </div>
+    
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        // button click show hide
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+            
+        })
+    </script>
+</body>
+</html>
